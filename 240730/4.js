@@ -25,5 +25,5 @@ let starbucks = [
 
 // 여기에 코드를 작성하세요.
 // 아이스 전용 커피 배열을 만듭니다.(icedOnly 속성이 true 인 커피 배열 만들기)
-const icedOnly = starbucks.filter(icedCoffeeGroup => icedCoffeeGroup.icedOnly);
+const icedOnly = starbucks.filter(icedCoffeeGroup => icedCoffeeGroup.icedOnly === true); // === true 추가!!!
 console.log(icedOnly);
